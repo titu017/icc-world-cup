@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardCornerRadius="6dp"
+    android:gravity="center_horizontal"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="12">
+
+        <TextView
+            android:id="@+id/one_positionTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Position"
+            android:layout_weight="2"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/two_flagTv"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/three_TeamTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Team"
+            android:layout_weight="2.5"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/four_WeightedMatchesTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="W M*"
+            android:layout_weight="2"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/five_PointsTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Points"
+            android:layout_weight="2"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/six_Rating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Rating"
+            android:layout_weight="2"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

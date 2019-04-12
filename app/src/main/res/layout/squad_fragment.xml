@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/squadRecyclerViewId"
+    android:layout_gravity="center">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:elevation="5dp"-->
+    <!--app:cardCornerRadius="6dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--app:cardUseCompatPadding="true">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:backgroundTint="@color/colorAccent">-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="10dp"-->
+                <!--android:weightSum="3"-->
+                <!--android:id="@+id/teamOne_LL">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/one_serialTv1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_weight=".5"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="1"-->
+                    <!--android:textSize="16sp" />-->
+
+
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/two_TeamImageIv2"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:src="@drawable/england"/>-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/three_teamNameTv3"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_weight="1.5"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="England"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamTwo_LL">-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv4"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="2"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv5"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/india"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv6"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="India"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamThree_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv7"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="3"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv8"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/newzealand"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv9"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="New Zealand"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamFour_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv10"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="4"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv11"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/southafrica"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv12"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="South Africa"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamFive_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv13"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="5"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv14"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/pakistan"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv15"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Pakistan"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamSix_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv16"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="6"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv17"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/australia"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv18"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Australia"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamSeven_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv19"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="7"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv20"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/bangladesh"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv21"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Bangladesh"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamEight_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv22"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="8"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv23"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/srilanka"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv24"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Sri Lanka"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamNine_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv25"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="9"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv26"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/westindies"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv27"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="West Indies"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:elevation="5dp"-->
+            <!--app:cardCornerRadius="6dp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp"-->
+            <!--android:weightSum="3"-->
+            <!--android:id="@+id/teamTen_LL">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/one_serialTv28"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="10"-->
+                <!--android:textSize="16sp" />-->
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/two_TeamImageIv29"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:src="@drawable/afghanistan"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/three_teamNameTv30"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight="1.5"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Afghanistan"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+
+<!--</android.support.v7.widget.CardView>-->
+
