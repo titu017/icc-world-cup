@@ -60,7 +60,9 @@
             android:layout_weight="2.5"
             android:textSize="13dp"
             android:fontFamily="@font/philosopher_bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:ellipsize="end"
+            android:singleLine="true"/>
 
         <TextView
             android:id="@+id/four_WeightedMatchesTv"
