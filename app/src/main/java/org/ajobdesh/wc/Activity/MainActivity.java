@@ -1,9 +1,13 @@
 package org.ajobdesh.wc.Activity;
 
+import android.graphics.Typeface;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import org.ajobdesh.wc.Adapter.ViewPagerAdapter;
 import org.ajobdesh.wc.Fragments.FragmentFixture;
@@ -16,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private ViewPagerAdapter adapter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabLayout_Id);
         viewPager = (ViewPager) findViewById(R.id.viewPager_Id);
+
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         //Add Fragment Here
@@ -38,4 +44,5 @@ public class MainActivity extends AppCompatActivity {
 //        actionBar.setElevation(0);
 
     }
+
 }
