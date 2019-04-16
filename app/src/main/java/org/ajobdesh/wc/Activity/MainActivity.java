@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         //Add Fragment Here
 
         adapter.AddFragment(new FragmentFixture(), "Fixture");
-        adapter.AddFragment(new FragmentIccRanking(),"ICC Ranking");
+        adapter.AddFragment(new FragmentIccRanking(),"Ranking");
         adapter.AddFragment(new FragmentSquad(),"Squads");
 
         viewPager.setAdapter(adapter);
