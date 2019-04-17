@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -40,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="12">
+            android:weightSum="11.5">
 
             <TextView
                 android:id="@+id/one_positionTv"
@@ -56,7 +57,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".4"/>
+                android:layout_weight=".5"/>
 
             <ImageView
                 android:id="@+id/two_flagTv"
@@ -86,11 +87,12 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1.5"
+                android:layout_weight="1.4"
                 android:fontFamily="@font/philosopher_bold"
                 android:gravity="center"
                 android:text="W M*"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:paddingLeft="-7dp"/>
 
             <TextView
                 android:id="@+id/five_PointsTv"
@@ -108,7 +110,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1.7"
+                android:layout_weight="1.8"
                 android:fontFamily="@font/philosopher_bold"
                 android:gravity="center"
                 android:text="Rating"

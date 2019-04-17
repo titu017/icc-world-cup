@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="3dp"
-        android:weightSum="12"
+        android:weightSum="11.5"
         android:background="@drawable/icc_ranking_box">
 
         <TextView
@@ -30,7 +30,6 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="10"
-            android:layout_weight="0"
             android:textSize="14sp"
             android:fontFamily="@font/philosopher_bold"
             android:textColor="@color/white"
