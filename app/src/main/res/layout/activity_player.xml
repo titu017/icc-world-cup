@@ -153,6 +153,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player2_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -169,6 +170,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player2_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -176,6 +178,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player2_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -197,6 +200,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player2_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -253,6 +257,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player3_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -269,6 +274,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player3_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -276,6 +282,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player3_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -297,6 +304,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player3_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -352,6 +360,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player4_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -368,6 +377,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player4_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -375,6 +385,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player4_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -396,6 +407,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player4_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -448,6 +460,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player5_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -464,6 +477,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player5_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -471,6 +485,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player5_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -492,6 +507,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player5_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -544,6 +560,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player6_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -560,6 +577,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player6_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -567,6 +585,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player6_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -588,6 +607,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player6_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -643,6 +663,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player7_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -659,6 +680,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player7_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -666,6 +688,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player7_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -687,6 +710,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player7_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -737,6 +761,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player8_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -753,6 +778,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player8_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -760,6 +786,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player8_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -781,6 +808,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player8_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -830,6 +858,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player9_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -846,6 +875,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player9_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -853,6 +883,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player9_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -874,6 +905,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player9_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -920,6 +952,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player10_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -936,6 +969,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player10_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -943,6 +977,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player10_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -964,6 +999,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player10_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -1012,6 +1048,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player11_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -1028,6 +1065,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player11_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1035,6 +1073,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player11_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1056,6 +1095,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player11_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -1101,6 +1141,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player12_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -1117,6 +1158,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player12_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1124,6 +1166,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player12_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1145,6 +1188,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player12_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -1190,6 +1234,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player13_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -1206,6 +1251,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player13_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1213,6 +1259,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player13_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1234,100 +1281,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Postion"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
-            </LinearLayout>
-
-
-
-        </LinearLayout>
-
-        <!--Linear Layout-1 ends here-->
-
-
-
-
-
-
-
-
-
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-
-            android:weightSum="10"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@drawable/squad_list_box"
-                android:gravity="center_vertical"
-                android:layout_weight="8"
-                android:weightSum="10">
-
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:paddingLeft="20dp">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="01."
-                        android:fontFamily="@font/philosopher_bold"
-                        android:textColor="@color/white" />
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_gravity="center"
-                    android:layout_weight="8">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="FirstName"
-                        android:fontFamily="@font/philosopher_bold"
-                        android:textColor="@color/white"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="LastName"
-                        android:fontFamily="@font/philosopher_bold"
-                        android:textColor="@color/white"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <!--Linear Layout-2 ends here-->
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="@drawable/squad_list_box_2"
-                android:gravity="center"
-                android:layout_weight="2"
-                android:layout_gravity="center">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/player13_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
@@ -1378,6 +1332,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player14_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white" />
@@ -1394,6 +1349,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player14_firstNameTv"
                         android:text="FirstName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1401,6 +1357,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/player14_lastNameTv"
                         android:text="LastName"
                         android:fontFamily="@font/philosopher_bold"
                         android:textColor="@color/white"/>
@@ -1422,6 +1379,105 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/player14_position"
+                    android:text="Postion"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/philosopher_bold"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <!--Linear Layout-1 ends here-->
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:weightSum="10"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/squad_list_box"
+                android:gravity="center_vertical"
+                android:layout_weight="8"
+                android:weightSum="10">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingLeft="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player15_serialTv"
+                        android:text="01."
+                        android:fontFamily="@font/philosopher_bold"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="8">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player15_firstNameTv"
+                        android:text="FirstName"
+                        android:fontFamily="@font/philosopher_bold"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/player15_lastNameTv"
+                        android:text="LastName"
+                        android:fontFamily="@font/philosopher_bold"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Linear Layout-2 ends here-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/squad_list_box_2"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/player15_position"
                     android:text="Postion"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_bold"/>
