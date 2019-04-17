@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:elevation="5dp"
-    app:cardCornerRadius="6dp"
-    android:gravity="center_horizontal"
-    app:cardUseCompatPadding="true"
     android:orientation="vertical">
 
 
@@ -16,28 +12,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="10dp"
-            android:weightSum="3"
-            android:id="@+id/squadLinearLayoutId">
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="10"
+            android:id="@+id/squadLinearLayoutId"
+            android:background="@drawable/squad_box"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"/>
 
             <TextView
                 android:id="@+id/one_serialTv"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
                 android:layout_gravity="center"
-                android:layout_weight=".5"
                 android:gravity="center"
-                android:text="1"
-                android:textSize="16sp" />
+                android:text="10"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/philosopher_bold"
+                android:background="@drawable/position_box"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="2.8"/>
 
 
 
             <ImageView
                 android:id="@+id/two_TeamImageIv"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="32dp"
                 android:layout_gravity="center"
-                android:layout_weight="1"
+                android:layout_weight=".8"
                 android:gravity="center"
                 android:src="@drawable/ic_launcher_background"/>
 
@@ -47,31 +60,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="1.5"
+                android:layout_weight="6.5"
                 android:gravity="center"
                 android:text="Team Name"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/philosopher_bold"/>
 
-            <!--playerList design-->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/player1_serialTv"
-                android:textSize="30sp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/player1_firstNameTv"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/player1_lastNameTv"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/player1_position"
-                />
         </LinearLayout>
 
-</android.support.v7.widget.CardView>
+</LinearLayout>

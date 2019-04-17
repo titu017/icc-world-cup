@@ -89,8 +89,8 @@ public class FragmentFixture extends Fragment {
         listFixture.add(new Fixture("Match 43","5/7/2019", "15:30 (GMT+6)" ,"Lord's, London", R.drawable.pakistan , R.drawable.bangladesh, "Pakistan", "Bangladesh"));
         listFixture.add(new Fixture("Match 44","6/7/2019", "15:30 (GMT+6)" ,"Headingley, Leeds", R.drawable.srilanka , R.drawable.india, "Sri Lanka", "India"));
         listFixture.add(new Fixture("Match 45","6/7/2019", "18:30 (GMT+6)" ,"Old Trafford, Manchester", R.drawable.australia , R.drawable.southafrica, "Australia", "South Africa"));
-        listFixture.add(new Fixture("Semi 1","9/7/2019", "15:30 (GMT+6)" ,"Old Trafford, Manchester", R.drawable.ic_launcher_background , R.drawable.ic_launcher_background, "1st", "4th"));
-        listFixture.add(new Fixture("Semi 2","11/7/2019", "15:30 (GMT+6)" ,"Edgbaston, Birmingham", R.drawable.ic_launcher_background , R.drawable.ic_launcher_background, "2nd", "3rd"));
-        listFixture.add(new Fixture("Final","14/7/2019", "15:30 (GMT+6)" ,"Lord's, London", R.drawable.ic_launcher_background , R.drawable.ic_launcher_background, "TBC", "TBC"));
+        listFixture.add(new Fixture("Semi 1","9/7/2019", "15:30 (GMT+6)" ,"Old Trafford, Manchester", R.drawable.empty_flag , R.drawable.empty_flag, "1st", "4th"));
+        listFixture.add(new Fixture("Semi 2","11/7/2019", "15:30 (GMT+6)" ,"Edgbaston, Birmingham", R.drawable.empty_flag , R.drawable.empty_flag, "2nd", "3rd"));
+        listFixture.add(new Fixture("Final","14/7/2019", "15:30 (GMT+6)" ,"Lord's, London", R.drawable.empty_flag , R.drawable.empty_flag, "TBC", "TBC"));
           }
 }

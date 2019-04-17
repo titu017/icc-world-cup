@@ -250,75 +250,75 @@ public class PlayerActivity extends AppCompatActivity {
         player1_lastName.setText(p1_lName);
         player1_position.setText(p1_pos);
 
-        player2_serial.setText(p1_serial);
-        player2_firstName.setText(p1_fName);
-        player2_lastName.setText(p1_lName);
-        player2_position.setText(p1_pos);
+        player2_serial.setText(p2_serial);
+        player2_firstName.setText(p2_fName);
+        player2_lastName.setText(p2_lName);
+        player2_position.setText(p2_pos);
 
-        player3_serial.setText(p1_serial);
-        player3_firstName.setText(p1_fName);
-        player3_lastName.setText(p1_lName);
-        player3_position.setText(p1_pos);
+        player3_serial.setText(p3_serial);
+        player3_firstName.setText(p3_fName);
+        player3_lastName.setText(p3_lName);
+        player3_position.setText(p3_pos);
 
-        player4_serial.setText(p1_serial);
-        player4_firstName.setText(p1_fName);
-        player4_lastName.setText(p1_lName);
-        player4_position.setText(p1_pos);
+        player4_serial.setText(p4_serial);
+        player4_firstName.setText(p4_fName);
+        player4_lastName.setText(p4_lName);
+        player4_position.setText(p4_pos);
 
-        player5_serial.setText(p1_serial);
-        player5_firstName.setText(p1_fName);
-        player5_lastName.setText(p1_lName);
-        player5_position.setText(p1_pos);
+        player5_serial.setText(p5_serial);
+        player5_firstName.setText(p5_fName);
+        player5_lastName.setText(p5_lName);
+        player5_position.setText(p5_pos);
 
-        player6_serial.setText(p1_serial);
-        player6_firstName.setText(p1_fName);
-        player6_lastName.setText(p1_lName);
-        player6_position.setText(p1_pos);
+        player6_serial.setText(p6_serial);
+        player6_firstName.setText(p6_fName);
+        player6_lastName.setText(p6_lName);
+        player6_position.setText(p6_pos);
 
-        player7_serial.setText(p1_serial);
-        player7_firstName.setText(p1_fName);
-        player7_lastName.setText(p1_lName);
-        player7_position.setText(p1_pos);
+        player7_serial.setText(p7_serial);
+        player7_firstName.setText(p7_fName);
+        player7_lastName.setText(p7_lName);
+        player7_position.setText(p7_pos);
 
-        player8_serial.setText(p1_serial);
-        player8_firstName.setText(p1_fName);
-        player8_lastName.setText(p1_lName);
-        player8_position.setText(p1_pos);
+        player8_serial.setText(p8_serial);
+        player8_firstName.setText(p8_fName);
+        player8_lastName.setText(p8_lName);
+        player8_position.setText(p8_pos);
 
-        player9_serial.setText(p1_serial);
-        player9_firstName.setText(p1_fName);
-        player9_lastName.setText(p1_lName);
-        player9_position.setText(p1_pos);
+        player9_serial.setText(p9_serial);
+        player9_firstName.setText(p9_fName);
+        player9_lastName.setText(p9_lName);
+        player9_position.setText(p9_pos);
 
-        player10_serial.setText(p1_serial);
-        player10_firstName.setText(p1_fName);
-        player10_lastName.setText(p1_lName);
-        player10_position.setText(p1_pos);
+        player10_serial.setText(p10_serial);
+        player10_firstName.setText(p10_fName);
+        player10_lastName.setText(p10_lName);
+        player10_position.setText(p10_pos);
 
-        player11_serial.setText(p1_serial);
-        player11_firstName.setText(p1_fName);
-        player11_lastName.setText(p1_lName);
-        player11_position.setText(p1_pos);
+        player11_serial.setText(p11_serial);
+        player11_firstName.setText(p11_fName);
+        player11_lastName.setText(p11_lName);
+        player11_position.setText(p11_pos);
 
-        player12_serial.setText(p1_serial);
-        player12_firstName.setText(p1_fName);
-        player12_lastName.setText(p1_lName);
-        player12_position.setText(p1_pos);
+        player12_serial.setText(p12_serial);
+        player12_firstName.setText(p12_fName);
+        player12_lastName.setText(p12_lName);
+        player12_position.setText(p12_pos);
 
-        player13_serial.setText(p1_serial);
-        player13_firstName.setText(p1_fName);
-        player13_lastName.setText(p1_lName);
-        player13_position.setText(p1_pos);
+        player13_serial.setText(p13_serial);
+        player13_firstName.setText(p13_fName);
+        player13_lastName.setText(p13_lName);
+        player13_position.setText(p13_pos);
 
-        player14_serial.setText(p1_serial);
-        player14_firstName.setText(p1_fName);
-        player14_lastName.setText(p1_lName);
-        player14_position.setText(p1_pos);
+        player14_serial.setText(p14_serial);
+        player14_firstName.setText(p14_fName);
+        player14_lastName.setText(p14_lName);
+        player14_position.setText(p14_pos);
 
-        player15_serial.setText(p1_serial);
-        player15_firstName.setText(p1_fName);
-        player15_lastName.setText(p1_lName);
-        player15_position.setText(p1_pos);
+        player15_serial.setText(p15_serial);
+        player15_firstName.setText(p15_fName);
+        player15_lastName.setText(p15_lName);
+        player15_position.setText(p15_pos);
 
 
 
