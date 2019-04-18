@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--LinearLayout-1-->
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:elevation="15dp"
-    app:cardCornerRadius="10dp"
-    android:gravity="center_horizontal"
-    app:cardUseCompatPadding="true">
+    android:gravity="center_horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="5dp">
+        android:padding="5dp"
+        android:background="@drawable/box_background"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-5dp">
+
 
         <TextView
             android:id="@+id/matchNoTv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="21dp"
             android:layout_gravity="center"
             android:gravity="center_horizontal"
             android:text="Match-1"
-            android:textAllCaps="true"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/match_no_box"
+            android:fontFamily="@font/philosopher_bold"
+            android:layout_marginBottom="20dp"/>
 
         <!--LinearLayout-2-->
         <LinearLayout
@@ -35,8 +41,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal"
-            android:weightSum="6"
-            android:layout_marginTop="-5dp">
+            android:weightSum="7.5"
+            android:layout_marginTop="-15dp">
 
             <!--LinearLayout-3-->
             <LinearLayout
@@ -45,28 +51,51 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="5dp"
-                android:layout_weight="3.5">
+                android:layout_weight="3.8">
 
                 <TextView
                     android:id="@+id/one_dateTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="03/03/2019"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/philosopher_bold"/>
 
                 <TextView
                     android:id="@+id/two_timeTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="10:10"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/philosopher_bold"/>
 
                 <TextView
                     android:id="@+id/three_locationTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="London"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/philosopher_regular"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    />
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="20dp"
+                    />
             </LinearLayout>
 
             <!--LinearLayout-4-->
@@ -76,7 +105,8 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:orientation="vertical"
-                android:layout_weight=".5">
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp">
 
                 <ImageView
                     android:id="@+id/four_image1Iv"
@@ -98,10 +128,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center"
+
                 android:orientation="vertical"
-                android:layout_weight="2"
-                android:layout_marginRight="3dp">
+                android:layout_weight="2.5"
+                android:layout_marginRight="25dp">
 
                 <TextView
                     android:id="@+id/six_team1Tv"
@@ -109,14 +139,19 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:text="Team-1"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/philosopher_bold"/>
 
                 <TextView
                     android:id="@+id/seven_team2Tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Team-1"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/philosopher_bold"
+                    android:layout_marginTop="3dp"/>
             </LinearLayout>
 
 
@@ -128,4 +163,4 @@
 
 
 
-</android.support.v7.widget.CardView>
+</LinearLayout>

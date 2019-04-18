@@ -1,11 +1,28 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/josefinsans_regular</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="OptionMenuCumtomTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">#323CCB</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:shadowColor">#e7dede</item>
+
+    </style>
+
+
 
 </resources>
