@@ -14,6 +14,15 @@
         <item name="android:textSize">15sp</item>
     </style>
 
+    <style name="OptionMenuCumtomTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">#323CCB</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:shadowColor">#e7dede</item>
+
+    </style>
+
 
 
 </resources>
