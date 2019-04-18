@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Last Updated - 20 Feb, 2019"
+            android:text="Last Updated - 17 April, 2019"
             android:layout_marginBottom="15dp"
             android:id="@+id/lastUpdateTv"
             android:gravity="center"
@@ -124,6 +124,17 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             ></android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W M*= Weighted Matches"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/weightedMatchId"
+            android:fontFamily="@font/philosopher_regular"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+
     </LinearLayout>
 
     </ScrollView>

@@ -62,7 +62,9 @@
                         android:id="@+id/player1_serialTv"
                         android:text="01."
                         android:fontFamily="@font/philosopher_bold"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        android:ellipsize="end"
+                        android:singleLine="true"/>
                 </LinearLayout>
 
 
@@ -109,7 +111,10 @@
                     android:id="@+id/player1_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -203,7 +208,11 @@
                     android:id="@+id/player2_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    />
             </LinearLayout>
 
 
@@ -307,7 +316,10 @@
                     android:id="@+id/player3_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -410,7 +422,10 @@
                     android:id="@+id/player4_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -510,7 +525,10 @@
                     android:id="@+id/player5_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -610,7 +628,10 @@
                     android:id="@+id/player6_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -713,7 +734,10 @@
                     android:id="@+id/player7_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -811,7 +835,10 @@
                     android:id="@+id/player8_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -908,7 +935,10 @@
                     android:id="@+id/player9_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -1002,7 +1032,10 @@
                     android:id="@+id/player10_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -1098,7 +1131,10 @@
                     android:id="@+id/player11_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -1191,7 +1227,10 @@
                     android:id="@+id/player12_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -1284,7 +1323,10 @@
                     android:id="@+id/player13_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -1382,7 +1424,10 @@
                     android:id="@+id/player14_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
@@ -1480,7 +1525,10 @@
                     android:id="@+id/player15_position"
                     android:text="Postion"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/philosopher_bold"/>
+                    android:fontFamily="@font/philosopher_bold"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:singleLine="true"/>
             </LinearLayout>
 
 
