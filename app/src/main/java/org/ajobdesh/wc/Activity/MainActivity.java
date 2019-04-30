@@ -1,5 +1,6 @@
 package org.ajobdesh.wc.Activity;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.design.widget.TabLayout;
@@ -12,7 +13,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.ajobdesh.wc.Adapter.ViewPagerAdapter;
 import org.ajobdesh.wc.Fragments.FragmentFixture;
@@ -27,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
 
+    Dialog dialogAboutUs;
+    Button closeAboutUsBtn;
+    TextView welcomeTextAbout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(null);
 
         toolbar.setPadding(0,22,0,0);
+
+        dialogAboutUs = new Dialog(this);
 
 
         tabLayout = (TabLayout) findViewById(R.id.tabLayout_Id);
@@ -71,11 +80,27 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.aboutUsItemId:
-
+                showDialog();
 
             case R.id.contactUsItemId:
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showDialog() {
+        dialogAboutUs.setContentView(R.layout.dialogbox_aboutus);
+        welcomeTextAbout = (TextView) dialogAboutUs.findViewById(R.id.welcomeTvAbout);
+        closeAboutUsBtn = (Button) dialogAboutUs.findViewById(R.id.closeAboutBtn);
+
+
+        closeAboutUsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialogAboutUs.dismiss();
+            }
+        });
+
+        dialogAboutUs.show();
     }
 }
