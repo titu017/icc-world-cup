@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Softgather IT Bangladesh is something we Desire"
+                android:text="Contact of Softgather IT Bangladesh is something we Desire"
                 android:textColor="@color/white"
                 android:fontFamily="@font/philosopher_regular"
                 android:textSize="20sp"
@@ -27,7 +27,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Softgather IT Bangladesh is something we Desire"
-                    android:id="@+id/welcomeTvAbout"
                     android:textColor="@color/white"
                     android:fontFamily="@font/philosopher_regular"
                     android:textSize="20sp"

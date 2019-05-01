@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    >
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:state_checked="true">
 
     <item
         android:id="@+id/aboutUsItemId"
         android:title="About Us"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:state_checked="true"/>
     <item
         android:id="@+id/contactUsItemId"
         android:title="Contact Us"
         app:showAsAction="never"
-        />
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:state_checked="true"/>
 
 </menu>

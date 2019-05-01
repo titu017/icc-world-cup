@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
 
     Dialog dialogAboutUs;
-    Button closeAboutUsBtn;
-    TextView welcomeTextAbout;
+    Dialog dialogContactUs;
+//    TextView welcomeTextAbout;
 
 
     @Override
@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setPadding(0,22,0,0);
 
         dialogAboutUs = new Dialog(this);
+        dialogContactUs = new Dialog(this);
 
 
         tabLayout = (TabLayout) findViewById(R.id.tabLayout_Id);
@@ -78,29 +79,23 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.aboutUsItemId:
-                showDialog();
 
-            case R.id.contactUsItemId:
+        if(item.getItemId()== R.id.aboutUsItemId){
+            showDialogAboutUs();
+        }else if(item.getItemId()== R.id.contactUsItemId){
+            showDialogContactUs();
 
         }
         return super.onOptionsItemSelected(item);
     }
 
-    private void showDialog() {
+    private void showDialogAboutUs() {
         dialogAboutUs.setContentView(R.layout.dialogbox_aboutus);
-        welcomeTextAbout = (TextView) dialogAboutUs.findViewById(R.id.welcomeTvAbout);
-        closeAboutUsBtn = (Button) dialogAboutUs.findViewById(R.id.closeAboutBtn);
-
-
-        closeAboutUsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialogAboutUs.dismiss();
-            }
-        });
-
         dialogAboutUs.show();
+    }
+
+    private void showDialogContactUs() {
+        dialogContactUs.setContentView(R.layout.dialogbox_contactus);
+        dialogContactUs.show();
     }
 }
